@@ -1,0 +1,117 @@
+body {
+    width: 100%;
+    height: 100%;
+    color: $primaryText;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+   }
+
+   .profile-img {
+     border-radius: 50%;
+   }
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+       margin: 0 0 35px;
+       text-transform: uppercase;
+       font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+       font-weight: 700;
+       letter-spacing: 1px;
+   }
+
+   .heading {
+       text-transform: uppercase;
+       font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+       font-weight: 700;
+   }
+
+   p {
+       margin: 0 0 25px;
+       font-size: 18px;
+       line-height: 1.5;
+   }
+
+   @media(min-width:768px) {
+       p {
+           margin: 0 0 35px;
+           font-size: 20px;
+           line-height: 1.6;
+       }
+   }
+
+   a {
+       color: $emerald;
+       -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+       transition: all .2s ease-in-out;
+   }
+
+   a:hover,
+   a:focus {
+       text-decoration: none;
+       color: $secondaryText;
+   }
+
+   .light {
+       font-weight: 400;
+   }
+
+   .article {
+     font-family: $bodyText, $bodyTextAlt, $openSans;
+   }
+
+   .footer {
+     background-color: #292c2f;
+     text-align: center;
+     font-size: 1.2rem;
+     padding: 4rem;
+     p {
+       &.slogan {
+         color: #8d9093;
+         font-size: 1.8rem;
+         margin: 0 0 1rem;
+       }
+       &.copywrite {
+         color: #8f9296;
+         font-size: 0.875rem;
+         margin: 0;
+       }
+     }
+     .links a {
+       list-style: none;
+       font-weight: bold;
+       color: #ffffff;
+       padding: 3rem 0 2rem;
+       margin: 0;
+       &::after {
+         content: "•";
+         padding: 0 0.4rem 0 0.8rem;
+       }
+       &:last-child::after {
+         content: "";
+         padding: 0 0.4rem 0 0.8rem;
+       }
+     }
+   }
+
+
+   .nav {
+     background-color: $white;
+     font-family: $bodyText, $bodyTextAlt, $openSans;
+   }
+
+   .nav .top-bar, .top-bar-left, .menu, .menu-text, ul, li {
+     background-color: $white;
+   }
+
+   .brand {
+     font-family: $headerTextAlt;
+     font-weight:600;
+   }

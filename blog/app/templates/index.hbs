@@ -1,0 +1,17 @@
+<div class="callout large primary">
+<div class="row column text-center">
+<h1>Our Blog</h1>
+<h2 class="subheader">Such a Simple Blog Layout</h2>
+</div>
+</div>
+{{outlet}}
+
+{{#each model as |post|}}
+<div class="post">
+
+<p>{{#link-to "post.index" post}}{{post.title}} -- {{post.user.name}}{{/link-to}}</p>
+<div>{{post.body}}</div>
+
+<hr />
+</div>
+{{/each}}

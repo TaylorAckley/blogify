@@ -1,0 +1,13 @@
+{{outlet}}
+<article class="article-container article">
+  {{blog-header title=model.title image=model.header}}
+    <div class="expanded row">
+{{blog-meta model=model}}
+    </div>
+    <div class="row">
+      <div class="small-12 columns">
+        {{blog-body body=model.body}}
+      </div>
+    </div>
+
+  </article>

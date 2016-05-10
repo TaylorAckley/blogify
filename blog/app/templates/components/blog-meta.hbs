@@ -1,0 +1,15 @@
+{{yield}}
+<div class="blog-meta-container">
+  <div class="row">
+<div class="small-6 columns">
+  <div class="small-6 columns">
+  <img src="{{model.user.profile}}" alt="{{model.user.name}}" class="profile-img">
+</div>
+<div class="small-6 columns">
+  {{model.user.name}}
+  {{model.created_at}}
+</div>
+</div>
+<div class="small-6 columns">{{model.views}}</div>
+</div>
+</div>

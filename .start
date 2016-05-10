@@ -1,0 +1,2 @@
+rails s --binding 0.0.0.0
+ember server --proxy http://localhost:3000

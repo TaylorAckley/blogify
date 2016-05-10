@@ -34,6 +34,9 @@ bower.json
 # Ignore pow environment settings
 .powenv
 
+node_modules
+bower_components
+
 # =========================
 # Operating System Files
 # =========================
